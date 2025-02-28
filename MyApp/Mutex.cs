@@ -40,4 +40,28 @@ namespace MyApp {
             Interlocked.Exchange(ref locked, 0);
         }
     } 
+
+    class NumberOfConsumersMutexLock {
+        public static volatile int locked = 0; // 0 = unlocked, 1 = locked
+        public static int numberOfConsumers = 0;
+        
+        public static int getId() {
+            while (Interlocked.Exchange(ref locked, 1) == 1) 
+            {
+                // Busy-wait until unlocked
+                Thread.Yield(); // Hint to the scheduler to reduce CPU 
+            }
+
+            Console.WriteLine("ACQUIRED---");
+            numberOfConsumers++;
+            return numberOfConsumers;
+        }
+
+        public static void release() {
+            Console.WriteLine("RELEASED");
+            Interlocked.Exchange(ref locked, 0);
+        }
+    }
+
+    //implement queue lock here
 }

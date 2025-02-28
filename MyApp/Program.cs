@@ -5,8 +5,6 @@ using System.Collections.Generic;
 namespace MyApp {
 
     class Program {
-        private static int maxAccounts = 10;
-        private static int threadExecutionTime = 500;
         private static List<string> ownerNames = new List<string> {
             "John", "Alice", "Bob", "Emma", "David", "Sophia", "Michael", "Olivia", "James", "Liam",
             "Noah", "Isabella", "William", "Mia", "Benjamin", "Charlotte", "Lucas", "Amelia", "Henry", "Evelyn",
@@ -16,8 +14,8 @@ namespace MyApp {
         };
 
         static void Main(string[] args) {
-            Thread mainThread = Thread.CurrentThread;
-            mainThread.Name = "Main Thread";
+            // Thread mainThread = Thread.CurrentThread;
+            // mainThread.Name = "Main Thread";
 
             createAccounts();
 
