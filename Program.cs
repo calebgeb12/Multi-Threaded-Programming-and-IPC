@@ -19,7 +19,7 @@ class Program {
             Console.WriteLine("timer 1: " + i);
         }
 
-        Console.WriteLine("testing");
+        Console.WriteLine("testing2");
     }
 
     public static void CountDown(int n) {
