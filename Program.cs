@@ -25,4 +25,5 @@ class Program {
             Console.WriteLine("timer 2: " + i);
         }
     }
+>>>>>>> 3b3bcee (Added my first c# script from vs code)
 }
