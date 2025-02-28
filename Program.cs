@@ -18,6 +18,8 @@ class Program {
         for (int i = n; i >= 0; i++) {
             Console.WriteLine("timer 1: " + i);
         }
+
+        Console.WriteLine("testing");
     }
 
     public static void CountDown(int n) {
@@ -25,5 +27,4 @@ class Program {
             Console.WriteLine("timer 2: " + i);
         }
     }
->>>>>>> 3b3bcee (Added my first c# script from vs code)
 }
