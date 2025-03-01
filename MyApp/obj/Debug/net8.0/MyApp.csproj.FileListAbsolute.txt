@@ -1,0 +1,15 @@
+/home/caleb/Multi-Threaded-Programming-and-IPC/MyApp/bin/Debug/net8.0/MyApp
+/home/caleb/Multi-Threaded-Programming-and-IPC/MyApp/bin/Debug/net8.0/MyApp.deps.json
+/home/caleb/Multi-Threaded-Programming-and-IPC/MyApp/bin/Debug/net8.0/MyApp.runtimeconfig.json
+/home/caleb/Multi-Threaded-Programming-and-IPC/MyApp/bin/Debug/net8.0/MyApp.dll
+/home/caleb/Multi-Threaded-Programming-and-IPC/MyApp/bin/Debug/net8.0/MyApp.pdb
+/home/caleb/Multi-Threaded-Programming-and-IPC/MyApp/obj/Debug/net8.0/MyApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/caleb/Multi-Threaded-Programming-and-IPC/MyApp/obj/Debug/net8.0/MyApp.AssemblyInfoInputs.cache
+/home/caleb/Multi-Threaded-Programming-and-IPC/MyApp/obj/Debug/net8.0/MyApp.AssemblyInfo.cs
+/home/caleb/Multi-Threaded-Programming-and-IPC/MyApp/obj/Debug/net8.0/MyApp.csproj.CoreCompileInputs.cache
+/home/caleb/Multi-Threaded-Programming-and-IPC/MyApp/obj/Debug/net8.0/MyApp.sourcelink.json
+/home/caleb/Multi-Threaded-Programming-and-IPC/MyApp/obj/Debug/net8.0/MyApp.dll
+/home/caleb/Multi-Threaded-Programming-and-IPC/MyApp/obj/Debug/net8.0/refint/MyApp.dll
+/home/caleb/Multi-Threaded-Programming-and-IPC/MyApp/obj/Debug/net8.0/MyApp.pdb
+/home/caleb/Multi-Threaded-Programming-and-IPC/MyApp/obj/Debug/net8.0/MyApp.genruntimeconfig.cache
+/home/caleb/Multi-Threaded-Programming-and-IPC/MyApp/obj/Debug/net8.0/ref/MyApp.dll
