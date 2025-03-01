@@ -14,8 +14,8 @@
 13) type ls again and you should the these two programs along with some others: IPC.cs, Program.cs
 14) Now, run the following program, replacing <fileName> with the program you want to run (omit the .cs at the end): dotnet run --project ./MyApp.csproj --property:StartupObject=MyApp.<fileName>
 
-    a) for Program.cs: dotnet run --project ./MyApp.csproj --property:StartupObject=MyApp.Program.cs
+    a) for Program.cs: dotnet run --project ./MyApp.csproj --property:StartupObject=MyApp.Program
     
-    b) for IPC.cs: dotnet run --project ./MyApp.csproj --property:StartupObject=MyApp.IPC.cs
+    b) for IPC.cs: dotnet run --project ./MyApp.csproj --property:StartupObject=MyApp.IPC
     
 16) if you want to stop one of these programs prematurely, click "cntrl + c"
