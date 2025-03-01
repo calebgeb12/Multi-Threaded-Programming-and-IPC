@@ -1,3 +1,12 @@
+#Project Overview
+1) This repo implements multi-threading, synchronization through mutexes, deadlock resolution, and IPC implementation
+2) Important files:
+
+    a) Program.cs: implements Project A, multi-threading, synchronization through mutexes, deadlock resolution
+    b) IPC.cs: implements Project B, IPC implementation
+    c) Mutex.cs: implemens Mutex mechanism for both Program and IPC
+
+
 # Multi-Threaded-Programming-and-IPC Setup Guide
 
 1) In your computer terminal, run the following command: "wsl --install" (without the quotes)
@@ -19,3 +28,6 @@
     b) for IPC.cs: dotnet run --project ./MyApp.csproj --property:StartupObject=MyApp.IPC
     
 16) if you want to stop one of these programs prematurely, click "cntrl + c"
+
+
+
