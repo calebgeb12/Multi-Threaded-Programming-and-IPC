@@ -5,15 +5,7 @@ namespace MyApp {
         private static List<Consumer> consumerList = new List<Consumer>();
         private static int numberOfConsumers = 5;
         static void Main(string[] args) {
-            Console.WriteLine("working");
-            /**
-                user inputs to determine...
-                    1) number of consumers (always one producer) but up to a max
-
-                use user inputs can perform the following...
-                    1) print the local memory of a consumer (by giving index) 
-            **/
-
+            //only one producer and many consumers
             Producer producer = new Producer();
             Thread sendThread = new Thread(producer.send);
             sendThread.Start();
@@ -31,7 +23,7 @@ namespace MyApp {
     }
 
     class Producer {
-        private int sendTime = 1000;
+        private int sendTime = 500;
         private int minNum = 5;
         private int maxNum = 250;
         public Producer() {
@@ -50,7 +42,7 @@ namespace MyApp {
 
     class Mailbox {        
         /**this 'Mailbox' class doesn't actually serve any purpose. It only exists concetually as a "mailbox" as the actual buffer 
-            that contains data is implemented in a MutexLock to ensure a race conditiond doesn't occur. **/
+            that contains data is implemented in a BufferMutexLock **/
     }
 
     class Consumer {
@@ -64,7 +56,7 @@ namespace MyApp {
         private int id;
         private List<int> localMemory = new List<int>();
         private int maxMemory = 10;
-        private int checkTime = 2000;
+        private int checkTime = 1000;
 
         public Consumer() {
             this.id = NumberOfConsumersMutexLock.getId(); //mutex lock implementation called
@@ -84,7 +76,8 @@ namespace MyApp {
             }
 
             else {
-                Console.WriteLine("FULL-----");
+                printLocalMemory();
+                return;
             }
 
             Thread.Sleep(checkTime);
