@@ -1,4 +1,4 @@
-# Multi-Threaded-Programming-and-IPC
+# Multi-Threaded-Programming-and-IPC Setup Guide
 
 1) In your computer terminal, run the following command: "wsl --install" (without the quotes)
 2) If you get any errors, paste them into ChatGPT and follow ChatGPT's instructions
